@@ -1,0 +1,18 @@
+package appAlumno;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class testNota {
+
+	@Test
+	public void testPromedio() {
+		Alumno alumno = new Alumno("1", "Camilo", 12.00, 14.00);
+		double Resultado;
+		Resultado = alumno.CalcularPromedio();
+		assertEquals((12+14)/2, Resultado);
+		
+	}
+
+}

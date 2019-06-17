@@ -1,0 +1,14 @@
+package appAlumno;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class testFinal {
+
+	@Test
+	public void testFianl() {
+		Alumno alumno = new Alumno(CodigoAlumno, NombreAlumno, PrimerNotalAlumno, SegundaNotalAlumno, TerceraNotalAlumno, CuartaNotaAlumno, CuartaaNotalAlumno)
+	}
+
+}

@@ -1,0 +1,18 @@
+package appAlumno;
+
+public class Alumno {
+
+	private String CodigoAlumno;
+	private String NombreAlumno;
+	private double NotaParcialAlumno;
+	private double NotaFinalAlumno;
+	
+	
+public Alumno(String CodigoAlumno, String NombreAlumno, double NotaParcialAlumno, double NotaFinalAlumno) {
+	this.CodigoAlumno = CodigoAlumno;
+	this.NombreAlumno = NombreAlumno;
+	this.NotaParcialAlumno = NotaParcialAlumno;
+	this.NotaFinalAlumno = NotaFinalAlumno;
+	
+}
+}

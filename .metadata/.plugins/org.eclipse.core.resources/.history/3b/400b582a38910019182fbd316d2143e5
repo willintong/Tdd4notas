@@ -1,0 +1,54 @@
+package appAlumno;
+
+public class Alumno {
+
+	private String CodigoAlumno;
+	private String NombreAlumno;
+	private double NotaParcialAlumno;
+	private double NotaFinalAlumno;
+
+	public Alumno(String CodigoAlumno, String NombreAlumno, double NotaParcialAlumno, double NotaFinalAlumno) {
+		this.CodigoAlumno = CodigoAlumno;
+		this.NombreAlumno = NombreAlumno;
+		this.NotaParcialAlumno = NotaParcialAlumno;
+		this.NotaFinalAlumno = NotaFinalAlumno;
+
+	}
+
+	public double CalcularPromedio() {
+		return (this.NotaParcialAlumno + this.NotaFinalAlumno) / 3;
+	}
+
+	public String getCodigoAlumno() {
+		return CodigoAlumno;
+	}
+
+	public void setCodigoAlumno(String codigoAlumno) {
+		CodigoAlumno = codigoAlumno;
+	}
+
+	public String getNombreAlumno() {
+		return NombreAlumno;
+	}
+
+	public void setNombreAlumno(String nombreAlumno) {
+		NombreAlumno = nombreAlumno;
+	}
+
+	public double getNotaParcialAlumno() {
+		return NotaParcialAlumno;
+	}
+
+	public void setNotaParcialAlumno(double notaParcialAlumno) {
+		NotaParcialAlumno = notaParcialAlumno;
+	}
+
+	public double getNotaFinalAlumno() {
+		return NotaFinalAlumno;
+	}
+
+	public void setNotaFinalAlumno(double notaFinalAlumno) {
+		NotaFinalAlumno = notaFinalAlumno;
+	}
+
+}

@@ -1,0 +1,74 @@
+package appAlumno;
+
+public class Alumno {
+
+	private String CodigoAlumno;
+	private String NombreAlumno;
+	private double PrimerNotalAlumno;
+	private double SegundaNotalAlumno;
+	private double TerceraNotalAlumno;
+	private double CuartaaNotalAlumno;
+
+	public Alumno(String CodigoAlumno, String NombreAlumno, double NotaParcialAlumno, double NotaFinalAlumno) {
+		this.CodigoAlumno = CodigoAlumno;
+		this.NombreAlumno = NombreAlumno;
+		this. PrimerNotalAlumno =  PrimerNotalAlumno;
+		this.SegundaNotalAlumno = SegundaNotalAlumno;
+		this.TerceraNotalAlumno = TerceraNotalAlumno;
+		this.CuartaaNotalAlumno = CuartaaNotalAlumno;
+
+	}
+
+	public double CalcularPromedio() {
+		return (this.PrimerNotalAlumno + this.SegundaNotalAlumno + this.TerceraNotalAlumno + this.CuartaaNotalAlumno) /4;
+	}
+
+	public String getCodigoAlumno() {
+		return CodigoAlumno;
+	}
+
+	public void setCodigoAlumno(String codigoAlumno) {
+		CodigoAlumno = codigoAlumno;
+	}
+
+	public String getNombreAlumno() {
+		return NombreAlumno;
+	}
+
+	public void setNombreAlumno(String nombreAlumno) {
+		NombreAlumno = nombreAlumno;
+	}
+	
+	public double getPrimerNotalAlumno() {
+		return PrimerNotalAlumno;
+	}
+	
+	public void setPrimerNotalAlumno(double primerNotalAlumno) {
+		PrimerNotalAlumno = primerNotalAlumno;
+	}
+	
+	public double getSegundaNotalAlumno() {
+		return SegundaNotalAlumno;
+	}
+	
+	public void setSegundaNotalAlumno(double segundaNotalAlumno) {
+		SegundaNotalAlumno = segundaNotalAlumno;
+	}
+	
+	public double getTerceraNotalAlumno() {
+		return TerceraNotalAlumno;
+	}
+	
+	public void setTerceraNotalAlumno(double terceraNotalAlumno) {
+		TerceraNotalAlumno = terceraNotalAlumno;
+	}
+	
+	public double getCuartaaNotalAlumno() {
+		return CuartaaNotalAlumno;
+	}
+	
+	public void setCuartaaNotalAlumno(double cuartaaNotalAlumno) {
+		CuartaaNotalAlumno = cuartaaNotalAlumno;
+	}
+
+}
